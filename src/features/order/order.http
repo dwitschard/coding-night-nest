@@ -1,0 +1,4 @@
+### GET request with a header
+GET http://localhost:3000/api/order/12403
+Accept: application/json
+
