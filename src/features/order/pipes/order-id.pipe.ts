@@ -1,5 +1,5 @@
 import {ArgumentMetadata, PipeTransform} from "@nestjs/common";
-import {OrderIdException} from "../../../core/aop/OrderIdException";
+import {OrderIdException} from "../../../core/aop/order-id-exception.model";
 
 export class OrderIdPipe implements PipeTransform<number> {
     transform(value: number, metadata: ArgumentMetadata): number {

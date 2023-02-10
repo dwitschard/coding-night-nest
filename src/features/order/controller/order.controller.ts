@@ -1,7 +1,6 @@
 import {Controller, Get, Inject, Param, ParseIntPipe} from "@nestjs/common";
-import {OrderIdPipe} from "../pipes/OrderIdPipe";
-import {OrderService} from "../service/OrderService";
-import {APP_GUARD} from "@nestjs/core";
+import {OrderService} from "../service/order.service";
+import {OrderIdPipe} from "../pipes/order-id.pipe";
 
 @Controller('order')
 export class OrderController {

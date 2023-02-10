@@ -1,6 +1,6 @@
 import {Module} from "@nestjs/common";
-import {OrderController} from "./controller/orderController";
-import {OrderService} from "./service/OrderService";
+import {OrderController} from "./controller/order.controller";
+import {OrderService} from "./service/order.service";
 
 
 @Module({
